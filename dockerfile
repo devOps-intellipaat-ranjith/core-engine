@@ -1,5 +1,6 @@
 from ubuntu
 run apt update -y
+run install tomcat -y
 add . /app
 expose 5000
 workdir /app
