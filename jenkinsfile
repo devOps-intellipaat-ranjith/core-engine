@@ -1,0 +1,10 @@
+pipeline{
+stages{
+stage('prep'){
+steps{
+echo "Hello World"
+}   
+  }
+}
+}
+
