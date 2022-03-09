@@ -1,5 +1,7 @@
-<<<<<<< HEAD
 pipeline{
+  agent any;
+tools{
+}
 stages{
 stage('prep'){
 steps{
@@ -9,10 +11,3 @@ echo "Hello World"
 }
 }
 
-=======
-pipeline{
-agent any;
-tools{
-}
-}
->>>>>>> 57c669067c158afcb6766b3240ec6661f831808e
