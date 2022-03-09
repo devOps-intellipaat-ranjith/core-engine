@@ -1,0 +1,29 @@
+pipeline{
+
+  agent any;
+tools{
+}
+stages{
+stage('prep'){
+steps{
+echo "Hello World"
+git branch: main "url"
+}  
+  }
+}
+}
+
+
+
+
+
+
+
+
+
+   
+ 
+
+
+
+
